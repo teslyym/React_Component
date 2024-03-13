@@ -3,7 +3,7 @@ import product from './product'
 
 const Image = () => {
   return (
-    <div>{product.Image}</div>
+    <img src={product.path} alt="" />
   )
 }
 
