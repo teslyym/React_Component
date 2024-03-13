@@ -8,7 +8,7 @@ import Price from './Price';
 import Image from './Image';
 
 function App() {
-
+  let name= "David"
   return (
     <>
     <Card style={{ width: '18rem' }}>
@@ -22,6 +22,10 @@ function App() {
       </Card.Body>
     </Card>
   
+    <h1>Hello {name?name:"there"}</h1>
+    {
+      name && <Image/>
+    }
     </>
   )
 }
